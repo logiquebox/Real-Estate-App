@@ -1,0 +1,41 @@
+#header{
+    height: 50px;
+    background: #8397b6;
+    color: #fff;
+
+}
+
+#header h1 {
+    color: #fff;
+}
+
+a:link,
+a:visited {
+    color: #8397b6;
+}
+
+div.breadcrumbs {
+    background: #30caa0;
+    color: #8397b6;
+}
+
+div.breadcrumbs a:hover{
+    color:  #8397b6;
+}
+
+div.breadcrumbs a {
+    color: #fff;
+}
+
+.module h2, .module caption, .inline-group h2  {
+    background: #30caa0;
+}
+
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    background: #8397b6;
+    color: #fff;
+}
+
+.sticky {
+    margin-top: 1.5rem;
+}
