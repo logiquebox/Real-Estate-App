@@ -15,7 +15,8 @@
       <link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}">
   
 
-    <title>BT Real Estate</title>
+    <title>BT Real Estate {% block title %} {% endblock %}</title>
+
     <!-- Topbar -->
     {% include 'partials/_topbar.html' %}
     <!-- Navbar -->
@@ -27,7 +28,7 @@
     {% block content %}
     <!-- Main content -->
     {% endblock %}
-
+    
     <!-- Footer -->
     {% include 'partials/_footer.html' %} 
 
