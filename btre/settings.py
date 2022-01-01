@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'listings.apps.ListingsConfig',
     'realtors.apps.RealtorsConfig',
     'accounts.apps.AccountsConfig',
+    'contacts.apps.ContactsConfig',
 ]
 
 MIDDLEWARE = [
@@ -140,3 +141,11 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger',
     
 }
+
+# Email settings 
+# EMAIL_USE_TLS = True
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_HOST_USER = 'ujahemmauel72@gmail.com'
+# EMAIL_HOST_PASSWORD = ''
+# EMAIL_PORT = 587
+# ACCOUNT_EMAIL_VERIFICATION = 'none'
